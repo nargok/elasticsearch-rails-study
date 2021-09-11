@@ -56,6 +56,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'mocha', group: 'test'
 gem 'rails-controller-testing', group: 'test'
-gem 'elasticsearch'
-gem 'elasticsearch-model', git: 'https://github.com/elasticsearch/elasticsearch-rails.git'
-gem 'elasticsearch-rails', git: 'https://github.com/elasticsearch/elasticsearch-rails.git'
+gem 'elasticsearch', "< 7.6"
+gem 'elasticsearch-model', "< 7.6" 
+gem 'elasticsearch-rails', "< 7.6"
+# gem 'elasticsearch-model', git: 'https://github.com/elasticsearch/elasticsearch-rails.git'
+# gem 'elasticsearch-rails', git: 'https://github.com/elasticsearch/elasticsearch-rails.git'
